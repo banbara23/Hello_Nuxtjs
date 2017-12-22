@@ -34,5 +34,11 @@ module.exports = {
         })
       }
     }
+  },
+  module: [
+    '@nuxtjs/pwa'
+  ],
+  workbox: {
+    dev: true, // 開発環境でもPWA有効
   }
 }
